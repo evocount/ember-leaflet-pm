@@ -34,7 +34,7 @@ import PmEnabledLayer from 'ember-leaflet-pm/mixins/pm-enabled-layer';
 export default MarkerLayer.extend(PmEnabledLayer);
 ```
 
-```hhbs
+```hbs
 <LeafletMap …>
   <MarkerLayerPm @location={{coordinates}} @onPm:edit={{action "featuredEdited"}} />
   <LeafletPmControl />
