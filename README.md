@@ -1,14 +1,7 @@
 ember-leaflet-pm
 ==============================================================================
 
-[Short description of the addon.]
-
-
-Compatibility
-------------------------------------------------------------------------------
-
-* Ember.js v2.18 or above
-* Ember CLI v2.13 or above
+Use [leaflet.pm](https://github.com/codeofsumit/leaflet.pm) in Ember with [ember-leaflet](https://ember-leaflet.com) to create and edit geometry layers.
 
 
 Installation
@@ -22,8 +15,14 @@ ember install ember-leaflet-pm
 Usage
 ------------------------------------------------------------------------------
 
-[Longer description of how to use the addon in apps.]
+```hbs
+<LeafletMap …>
+  …
+  <LeafletPmControl />
+</LeafletMap>
+```
 
+…
 
 License
 ------------------------------------------------------------------------------

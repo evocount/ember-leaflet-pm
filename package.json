@@ -1,13 +1,22 @@
 {
   "name": "ember-leaflet-pm",
-  "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "version": "0.0.1",
+  "description": "Use leaflet.pm in Ember with ember-leaflet.",
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "ember-leaflet",
+    "leaflet",
+    "leaflet.pm",
+    "geojson",
+    "geometry",
+    "drawing"
   ],
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/evocount/ember-leaflet-pm"
+  },
   "license": "MIT",
-  "author": "",
+  "author": "Till Theato <till.theato@evocount.de>",
   "directories": {
     "doc": "doc",
     "test": "tests"
