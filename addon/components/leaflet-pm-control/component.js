@@ -24,11 +24,11 @@ class LeafletPmControl extends BaseLayer {
   ];
 
   addToContainer() {
-      this.parentComponent._layer.pm.addControls(this._layer);
+    this.parentComponent._layer.pm.addControls(this._layer);
   }
 
   removeFromContainer() {
-      this.parentComponent._layer.pm.removeControls();
+    this.parentComponent._layer.pm.removeControls();
   }
 
   createLayer() {

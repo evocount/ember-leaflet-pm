@@ -15,7 +15,7 @@ module.exports = {
     let prefix = 'node_modules/leaflet.pm/dist/';
 
     importTarget.import(prefix + 'leaflet.pm.css');
-    importTarget.import(prefix + 'leaflet.min.js');
+    importTarget.import(prefix + 'leaflet.pm.min.js');
   },
 
   // taken from ember-fetch
