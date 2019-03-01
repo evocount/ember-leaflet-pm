@@ -1,3 +1,5 @@
+[![npm version](https://badge.fury.io/js/ember-leaflet-pm.svg)](https://badge.fury.io/js/ember-leaflet-pm)
+
 ember-leaflet-pm
 ==============================================================================
 
