@@ -43,6 +43,12 @@ export default MarkerLayer.extend(PmEnabledLayer);
 
 Directly interacting with leaflet.pm is not supported, yet.
 
+Contributing
+------------------------------------------------------------------------------
+
+See the [Contributing](CONTRIBUTING.md) guide for details.
+
+
 License
 ------------------------------------------------------------------------------
 
