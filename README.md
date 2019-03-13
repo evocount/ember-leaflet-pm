@@ -18,9 +18,9 @@ Usage
 ------------------------------------------------------------------------------
 
 ```hbs
-<LeafletMap …>
+<LeafletMap … as |layers|>
   …
-  <LeafletPmControl />
+  <layers.pm-control />
 </LeafletMap>
 ```
 

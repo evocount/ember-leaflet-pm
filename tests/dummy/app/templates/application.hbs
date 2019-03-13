@@ -1,10 +1,10 @@
 <h2 id="title"><a href="https://github.com/evocount/ember-leaflet-pm">Ember-leaflet-pm</a> Demo</h2>
 
-<LeafletMap @lat="0" @lng="0" @zoom="0">
-  <WmsTileLayer
+<LeafletMap @lat="0" @lng="0" @zoom="0" as |layers|>
+  <layers.wms-tile
     @url="https://ows.terrestris.de/osm/service?"
     @layers="OSM-WMS"
     @attribution="Background Map: © terrestris GmbH & Co. KG, © <a href='https://www.openstreetmap.org/copyright'>OpenStreetMap</a> contributors"
   />
-  <LeafletPmControl />
+  <layers.pm-control />
 </LeafletMap>
