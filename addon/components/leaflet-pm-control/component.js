@@ -1,6 +1,6 @@
 import { classify } from '@ember/string';
 import { run } from '@ember/runloop';
-import { computed } from '@ember-decorators/object';
+import { computed } from '@ember/object';
 import BaseLayer from 'ember-leaflet/components/base-layer';
 
 class LeafletPmControl extends BaseLayer {

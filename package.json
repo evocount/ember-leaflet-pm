@@ -30,9 +30,7 @@
     "test:all": "ember try:each"
   },
   "dependencies": {
-    "@ember-decorators/babel-transforms": "^5.2.0",
     "ember-cli-babel": "^7.7.3",
-    "ember-decorators": "^6.0.0",
     "ember-leaflet": "^3.1.2",
     "leaflet.pm": "^2.1.0"
   },
