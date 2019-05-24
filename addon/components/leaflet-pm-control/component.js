@@ -12,7 +12,7 @@ class LeafletPmControl extends BaseLayer {
     'drawPolygon',
     'drawCircle',
     'editMode',
-    'drawMode',
+    'dragMode',
     'cutPolygon',
     'removalMode',
     'lang'
