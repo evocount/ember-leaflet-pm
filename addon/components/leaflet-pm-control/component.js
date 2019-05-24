@@ -14,7 +14,8 @@ class LeafletPmControl extends BaseLayer {
     'editMode',
     'drawMode',
     'cutPolygon',
-    'removalMode'
+    'removalMode',
+    'lang'
   ];
 
   leafletMapEvents = [
@@ -23,16 +24,23 @@ class LeafletPmControl extends BaseLayer {
     'pm:drawend'
   ];
 
+  leafletProperties = [
+    'lang:setLang'
+  ];
+
   addToContainer() {
-    this.parentComponent._layer.pm.addControls(this._layer);
+    if (this.lang) {
+      this._layer.setLang(this.lang);
+    }
+    this._layer.addControls(this.options);
   }
 
   removeFromContainer() {
-    this.parentComponent._layer.pm.removeControls();
+    this._layer.removeControls();
   }
 
   createLayer() {
-    return this.options;
+    return this.parentComponent._layer.pm;
   }
 
   // taken and adapted from ember-leaflet/components/base-layer
