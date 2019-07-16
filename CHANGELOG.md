@@ -8,6 +8,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## Unreleased
 - …
 
+## [1.1.1] - 2019-07-16
+### Changed
+- Dependency updates
+
 ## [1.1.0] - 2019-06-16
 ### Added
 - Expose i18n support through `lang` property.
