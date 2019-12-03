@@ -22,7 +22,11 @@ class LeafletPmControl extends BaseLayer {
   leafletMapEvents = [
     'pm:create',
     'pm:drawstart',
-    'pm:drawend'
+    'pm:drawend',
+    'pm:remove',
+    'pm:cut',
+    'pm:globaldrawmodetoggled',
+    'pm:globalremovalmodetoggled'
   ];
 
   leafletProperties = [

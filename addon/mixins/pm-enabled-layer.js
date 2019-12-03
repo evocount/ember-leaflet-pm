@@ -7,10 +7,15 @@ export default Mixin.create({
     'pm:vertexremoved',
     'pm:markerdragstart',
     'pm:markerdragend',
+    'pm:snapdrag',
     'pm:snap',
     'pm:unsnap',
     'pm:intersect',
-    'pm:centerplaced'
+    'pm:centerplaced',
+    'pm:dragstart',
+    'pm:drag',
+    'pm:dragend',
+    'pm:cut'
   ]),
   leafletOptions: Object.freeze(['pmIgnore']),
 });
