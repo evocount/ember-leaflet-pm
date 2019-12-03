@@ -7,6 +7,7 @@ class LeafletPmControl extends BaseLayer {
   leafletOptions = [
     'position',
     'drawMarker',
+    'drawCircleMarker',
     'drawPolyline',
     'drawRectangle',
     'drawPolygon',
