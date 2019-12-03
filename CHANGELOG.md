@@ -8,6 +8,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## Unreleased
 - …
 
+## [2.0.0] - 2019-12-03
+### Added
+- Expose `drawCircleMarker` option.
+- Expose more events.
+
+### Changed
+- Instead of leaflet.pm use leaflet-geoman which is the successor.
+- Dependency updates.
+
 ## [1.1.1] - 2019-07-16
 ### Changed
 - Dependency updates
