@@ -12,10 +12,10 @@ module.exports = {
       importTarget = this._findApp();
     }
 
-    let prefix = 'node_modules/leaflet.pm/dist/';
+    let prefix = 'node_modules/@geoman-io/leaflet-geoman-free/dist/';
 
-    importTarget.import(prefix + 'leaflet.pm.css');
-    importTarget.import(prefix + 'leaflet.pm.min.js');
+    importTarget.import(prefix + 'leaflet-geoman.css');
+    importTarget.import(prefix + 'leaflet-geoman.min.js');
   },
 
   // taken from ember-fetch
