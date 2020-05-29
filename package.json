@@ -1,6 +1,6 @@
 {
   "name": "ember-leaflet-pm",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Use leaflet-geoman in Ember with ember-leaflet.",
   "keywords": [
     "ember-addon",
