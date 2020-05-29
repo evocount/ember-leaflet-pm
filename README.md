@@ -6,6 +6,14 @@ ember-leaflet-pm
 Use [leaflet-geoman](https://github.com/geoman-io/leaflet-geoman) ([used to be leaflet.pm](https://github.com/geoman-io/leaflet-geoman/issues/501)) in Ember with [ember-leaflet](https://ember-leaflet.com) to create and edit geometry layers.
 
 
+Compatibility
+------------------------------------------------------------------------------
+
+* Ember.js v3.12 or above
+* Ember CLI v2.13 or above
+* Node.js v10 or above
+
+
 Installation
 ------------------------------------------------------------------------------
 
