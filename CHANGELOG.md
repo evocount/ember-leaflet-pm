@@ -8,6 +8,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## Unreleased
 - …
 
+## [2.0.2] - 2020-05-29
+### Changed
+- Dependency updates
+
 ## [2.0.1] - 2020-01-22
 ### Fixed
 - Use less common name for instance-initializer to avoid conflict.
