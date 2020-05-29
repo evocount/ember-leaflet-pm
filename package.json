@@ -34,7 +34,7 @@
   },
   "dependencies": {
     "@geoman-io/leaflet-geoman-free": "^2.5.0",
-    "ember-cli-babel": "^7.20.1",
+    "ember-cli-babel": "^7.20.3",
     "ember-cli-htmlbars": "^5.1.2",
     "ember-leaflet": "^4.1.0"
   },
